@@ -147,7 +147,7 @@ hr {
   cursor: pointer; }
 
 .INST .icon {
-  background-position: -51px -12px;
+  background-position: -50px -12px;
   cursor: pointer; }
 
 .VK .icon {
@@ -158,22 +158,16 @@ hr {
   transition: 0.5s;
   opacity: 0.9;
   display: none;
-  /* Hidden by default */
   position: fixed;
   bottom: 20px;
-  /* Place the button at the bottom of the page */
   right: 30px;
-  /* Place the button 30px from the right */
   z-index: 99;
-  /* Make sure it does not overlap */
   border: none;
   background-color: black;
   color: white;
   cursor: pointer;
   padding: 15px;
-  /* Some padding */
-  font-size: 10px;
-  /* Increase font size */ }
+  font-size: 10px; }
   #myBtn:hover {
     transition: 0.3s;
     opacity: 0.8; }
