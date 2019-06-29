@@ -1,0 +1,190 @@
+$TransitionBack: 0.5s;
+$Transition: 0.3s;
+
+* 
+{
+	margin: 0;
+	padding: 0;
+}
+
+a:hover, a {
+	cursor: pointer;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.UnderLine a {
+	transition: $TransitionBack;
+}
+
+.UnderLine a:hover {
+	transition: $Transition;
+	opacity: 0.9;
+	text-decoration: underline;
+}
+
+.nopadding {
+   padding: 0 !important;
+}
+
+.Padding5px {
+	padding-bottom: 5px;
+}
+
+header {
+	text-align: center;
+}
+
+hr {
+	height: 2px;
+	background: black;
+}
+
+.article {
+	padding-top: 2px;
+}
+
+.FormButton {
+	transition: $TransitionBack;
+	cursor: pointer;
+	padding: 5px;
+	color: white;
+	background: black;
+	border: 0px;
+	font-family: Impact;
+
+		&:hover{
+		transition: $Transition;
+		opacity: 0.9;
+		cursor: pointer;
+		padding: 5px;
+		color: white;
+		background: black;
+		border: 0px;
+		font-family: Impact;
+		}
+}
+
+.Input {
+	padding: 5px;
+	color: white;
+	background: black;
+	border: 0px;
+	width: 100%;
+	font-family: Impact;
+}
+
+.BlackBlock {
+	transition: $TransitionBack;
+
+	&:hover{
+	transition: $Transition;
+	color: white; 
+	background: black;
+	}
+}
+
+.BlockOfConcert {
+	transition: $TransitionBack;
+	width: 80px;
+	height: 108px;
+	background: black;
+	opacity: 0.9;
+	display: flex;
+
+	&:hover {
+	transition: $Transition;
+	opacity: 1;
+	width: 80px;
+	height: 108px;
+	background: black;
+	display: flex;
+}
+}
+
+.MBlockOfConcert {
+	margin-top: 10px;
+	background: black;
+}
+
+.DiscrOfConcert {
+	width: 50%;
+	height: 50%;
+	background: black;
+	opacity: 0.8;
+	display: flex;
+}
+
+.Margin20px {
+	margin-left: 20px;
+}
+
+.Margin10px {
+	margin-top: 10px;
+}
+
+.ContactBlock {
+	background: black;
+	color: white;
+
+	&:nth-child(4) {
+		height: 200px;
+		background: black;
+		color: white;
+		}
+}
+
+.TextInBlock  {
+	font-family: Impact;
+	color: white;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-top: 20%;
+}
+
+.MTextInBlock  {
+	color: white;
+	padding: 5px;
+}
+
+.ByTicket {
+	background: black;
+	color: white;
+	width: 110;
+}
+
+.img-wrap {
+ 	position: relative;
+	 span {
+		padding: 20px;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		text-align: right;
+		}
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  float: left;
+  background: url(Image/LogoSocial.png) no-repeat;
+}
+
+.FACEBOOK .icon {
+  background-position: -10px -12px;
+  cursor: pointer;
+}
+
+.INST .icon {
+  background-position: -51px -12px;
+  cursor: pointer;
+}
+
+.VK .icon {
+  background-position: -88px -12px;
+  cursor: pointer;
+}
